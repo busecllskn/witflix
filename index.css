@@ -51,7 +51,7 @@ main {
   display: block;
   width: 95%;
   align-items: center;
-  padding: 2rem 1.5rem;
+  padding: 4.5rem 1.5rem;
   margin: 0 auto;
   aspect-ratio: 15/4;
   border: 2px solid black;
@@ -119,6 +119,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  padding: 1rem;
 }
 
 .movies-suggestion-container .header{
