@@ -148,3 +148,59 @@ section {
   padding: 0.5rem 1.5rem 0.5rem 0.4rem;
   margin-top: 0.8rem;
 }
+
+/*...footer...*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 1.2rem;
+}
+
+footer div:first-child {
+  width: 60%;
+}
+
+.text {
+  margin-top: 1rem;
+}
+
+footer p {
+  margin-top: 0;
+  width: 110%;
+}
+
+.follow-button:hover {
+  color:rgb(154, 6, 6)
+}
+
+.click-apps:hover {
+  color: #911818;
+}
+
+footer nav {
+  display: flex;
+  gap: 3rem;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: black;
+}
+
+footer nav a:hover {
+  color: #911818;
+}
+
+.store {
+  width: 5rem;
+  aspect-ratio: 3/1;
+  background-image: url(./assets/Icons-App-Store-Google-play.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.play {
+  background-position: 0 -1.6rem;
+}
