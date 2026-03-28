@@ -204,3 +204,31 @@ footer nav a:hover {
 .play {
   background-position: 0 -1.6rem;
 }
+
+@media (max-width:650px) {
+  header {
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  header nav {
+    order: 2;
+    justify-content: space-between;
+    width: 100x;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer div:first-child {
+      width: 95%;
+  }
+
+  footer nav {
+    justify-content: center;
+    width: 100px;
+  }
+}
